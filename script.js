@@ -1,5 +1,6 @@
-const SUPABASE_URL="https://pdhmhflnowpevyeboziv.supabase.co";
-const SUPABASE_KEY="sb_publishable_ocpLnuL_L0M6-WRbFsWMyg_DcggD5vDcg";
+const SUPABASE_URL="https://pdhmhflnowpevyeboziv.supabase.co
+  ";
+const SUPABASE_KEY="sb_publishable_ocpLnuL_L0M6-WRbFsWMyg_DcggD5vD";
 const supabaseClient=window.supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
 let currentUser=null,currentProfile=null,authMode="register";const $=id=>document.getElementById(id);
 document.addEventListener("DOMContentLoaded",init);
